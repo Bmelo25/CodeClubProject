@@ -1,0 +1,43 @@
+body, html {
+    width: 100vw;
+    height: 100vh;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #ff6347, #a9a9a9)
+}
+
+main{
+   display: flex;
+   flex-flow: column wrap;
+}
+header{
+    color: white;
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 50px ;
+    margin: 0 auto;
+}
+
+header h2{
+    margin:10px auto;
+      text-align: center;
+    font-family: "Monsieur La Doulaise", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+header img{
+    display: flex;
+    border: 8px solid rgb(199, 199, 199);
+    margin:0, auto;
+}
+
+.inn{
+    border: 20px;
+    border-color: blue;
+}
