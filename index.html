@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BT BCA Chat</title>
 </head>
 <body>
+      <form action="message.html" method="GET"></form>
     <header>
         <h1>BT BCA Chatroom</h1>
     <h2>🐉A fun chatroom between BT and  BCA🐉</h2>
@@ -15,17 +15,17 @@
     <main>
         <p>Chat Down Below!</p>
         <br>
-        <form>
-                <textarea cols="50" rows="10" placeholder="type something here..." id="inn"></textarea>
+        
+        <form method="get" action="message.html" id="message">
+             
+                <textarea value="" cols="50" rows="10" placeholder="type something here..." id="inn" name="inn"target="blank"></textarea>
+                <button type="submit" class="send_message">Send</button>
+           
+        </tr>
         </form>
-    
-   
-
-
 </main>
 
+
 <script src="system.js"></script>
-
-
 </body>
 </html>
