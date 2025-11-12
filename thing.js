@@ -1,2 +1,1 @@
-const display = document.getElementById("inn");
-display.value = "eheheheheh"
+const userInput = document.getElementById("message")
